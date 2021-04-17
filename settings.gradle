@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Dueling Worlds International Quick App"
