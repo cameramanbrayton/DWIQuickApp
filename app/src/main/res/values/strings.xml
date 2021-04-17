@@ -7,4 +7,6 @@
     <string name="dueling_worlds_international_login_register_page" translatable="false"><a href="https://home.duelingworlds.com/login-for-the-dueling/">
         Dueling Worlds© International Login/Register Page</a></string>
     <string name="bse_512">bse_512</string>
+    <string name="brayton_scott_entertainment_home_page" translatable="false"><a href="https://bse.duelingworlds.com/">
+        Brayton Scott Entertainment© Home Page</a></string>
 </resources>
