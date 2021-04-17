@@ -4,4 +4,6 @@
     <string name="duelingworlds_512">duelingworlds_512</string>
     <string name="dueling_worlds_international_home_page" translatable="false"><a href="https://home.duelingworlds.com">
         Dueling Worlds© International Home Page</a></string>
+    <string name="dueling_worlds_international_login_register_page" translatable="false"><a href="https://home.duelingworlds.com/login-for-the-dueling/">
+        Dueling Worlds© International Login/Register Page</a></string>
 </resources>
