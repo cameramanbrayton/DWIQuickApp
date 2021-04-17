@@ -6,4 +6,5 @@
         Dueling Worlds© International Home Page</a></string>
     <string name="dueling_worlds_international_login_register_page" translatable="false"><a href="https://home.duelingworlds.com/login-for-the-dueling/">
         Dueling Worlds© International Login/Register Page</a></string>
+    <string name="bse_512">bse_512</string>
 </resources>

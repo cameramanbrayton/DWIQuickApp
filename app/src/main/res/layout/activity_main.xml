@@ -94,4 +94,18 @@
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/dwiHomeTextView" />
+
+    <ImageView
+        android:id="@+id/bseImageLogo"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/bse_512"
+        android:onClick="openBrowser"
+        android:tag="https://bse.duelingworlds.com/"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dwiLogin"
+        app:srcCompat="@drawable/bse_512" />
 </androidx.constraintlayout.widget.ConstraintLayout>
