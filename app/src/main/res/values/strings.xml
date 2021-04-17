@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Dueling Worlds International Quick App</string>
     <string name="dueling_worlds_quick_app">Dueling Worlds© Quick App</string>
+    <string name="duelingworlds_512">duelingworlds_512</string>
 </resources>
