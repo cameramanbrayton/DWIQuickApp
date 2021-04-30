@@ -14,4 +14,8 @@
         Brayton Scott Music Entertainment Home Page</a></string>
     <string name="web_app_design_development_home_page" translatable="false"><a href="https://web.duelingworlds.com/">
         <![CDATA[Web & App Design & Development Home Page]]></a></string>
+    <string name="blog_of_dueling_worlds_international_home_page" translatable="false"><a href="https://blog.duelingworlds.com/">
+        Blog of Dueling Worlds© International Home Page</a></string>
+    <string name="shopping_dueling_worlds_international_all_app_shopping_page" translatable="false"><a href="https://shop.duelingworlds.com/">
+        Shopping @ Dueling Worlds© International All App Shopping Page</a></string>
 </resources>
