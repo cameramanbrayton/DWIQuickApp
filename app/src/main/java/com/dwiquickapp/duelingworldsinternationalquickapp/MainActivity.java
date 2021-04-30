@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
         textView = findViewById(R.id.bsmeHomeTextView);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
 
+        textView = findViewById(R.id.dwiWebAppTextView);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+
     }
 
     public void openBrowser(View view){

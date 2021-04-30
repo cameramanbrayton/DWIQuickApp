@@ -12,4 +12,6 @@
     <string name="bsme_512">bsme_512</string>
     <string name="brayton_scott_music_entertainment_home_page" translatable="false"><a href="https://bsme.duelingworlds.com/">
         Brayton Scott Music Entertainment Home Page</a></string>
+    <string name="web_app_design_development_home_page" translatable="false"><a href="https://web.duelingworlds.com/">
+        <![CDATA[Web & App Design & Development Home Page]]></a></string>
 </resources>
