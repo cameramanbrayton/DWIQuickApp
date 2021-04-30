@@ -37,6 +37,15 @@ public class MainActivity extends AppCompatActivity {
         textView = findViewById(R.id.dwiShopTextView);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
 
+        textView = findViewById(R.id.dwiRestHomeTextView);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+
+        textView = findViewById(R.id.dwiBgdHomeTextView);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+
+        textView = findViewById(R.id.dwiVivsHomeTextView);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+
     }
 
     public void openBrowser(View view){

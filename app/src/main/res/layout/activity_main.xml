@@ -236,5 +236,98 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiShop" />
+
+        <ImageView
+            android:id="@+id/dwiRest"
+            android:layout_width="0dp"
+            android:layout_height="210dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/restless_child_1988_to_present_app_home_page"
+            android:onClick="openBrowser"
+            android:tag="https://home.restlesschild.rocks/"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dwiShopTextView"
+            app:srcCompat="@drawable/ic_restless_512" />
+
+        <TextView
+            android:id="@+id/dwiRestHomeTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/restless_child_1988_to_present_app_home_page"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dwiRest" />
+
+        <ImageView
+            android:id="@+id/dwiBgd"
+            android:layout_width="0dp"
+            android:layout_height="210dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/bad_girls_dream_1990_present_app_home_page"
+            android:onClick="openBrowser"
+            android:tag="https://homer.bgdmusic.club/"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dwiRestHomeTextView"
+            app:srcCompat="@drawable/ic_bad_concert" />
+
+        <TextView
+            android:id="@+id/dwiBgdHomeTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/bad_girls_dream_1990_present_app_home_page"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dwiBgd" />
+
+        <ImageView
+            android:id="@+id/dwiVivs"
+            android:layout_width="0dp"
+            android:layout_height="210dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/shopping_vivians_app_home_page"
+            android:onClick="openBrowser"
+            android:tag="https://home.vivians.biz/"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dwiBgdHomeTextView"
+            app:srcCompat="@drawable/ic_vivs_512" />
+
+        <TextView
+            android:id="@+id/dwiVivsHomeTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/shopping_vivians_app_home_page"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dwiVivs" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
