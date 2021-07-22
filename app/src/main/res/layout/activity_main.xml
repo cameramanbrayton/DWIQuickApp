@@ -29,22 +29,55 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
+            android:id="@+id/rcMusicAppimage"
+            android:layout_width="0dp"
+            android:layout_height="210dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/duelingworlds_512"
+            android:onClick="openBrowser"
+            android:tag="https://shop.duelingworlds.com/shop/restless-child-album-in-app-site-1989-album-12-songs-2-99/"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced" />
+
+        <TextView
+            android:id="@+id/rcMusicAppText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/restless_child_album_in_app_site_1989_album_12_songs_2_99"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rcMusicAppimage" />
+
+        <ImageView
             android:id="@+id/imageView"
             android:layout_width="0dp"
             android:layout_height="210dp"
-            android:layout_marginTop="20dp"
             android:contentDescription="@string/duelingworlds_512"
             android:onClick="openBrowser"
             android:tag="https://home.duelingworlds.com"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView"
-            app:srcCompat="@drawable/ic_duelingworlds_512" />
+            app:srcCompat="@drawable/ic_duelingworlds_512"
+            tools:layout_editor_absoluteY="1098dp" />
 
         <TextView
             android:id="@+id/dwiHomeTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:padding="10sp"
@@ -54,6 +87,7 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -61,11 +95,12 @@
             android:id="@+id/dwiLogin"
             android:layout_width="0dp"
             android:layout_height="210dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="8dp"
             android:contentDescription="@string/duelingworlds_512"
             android:onClick="openBrowser"
             android:tag="https://home.duelingworlds.com/login-for-the-dueling/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiHomeTextView"
             app:srcCompat="@drawable/ic_duelingworlds_512" />
@@ -74,6 +109,7 @@
             android:id="@+id/dwiLoginTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:padding="10sp"
@@ -83,6 +119,7 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiLogin" />
 
@@ -90,11 +127,12 @@
             android:id="@+id/bseImageLogo"
             android:layout_width="0dp"
             android:layout_height="210dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="16dp"
             android:contentDescription="@string/bse_512"
             android:onClick="openBrowser"
             android:tag="https://bse.duelingworlds.com/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiLoginTextView"
             app:srcCompat="@drawable/ic_bse_512" />
@@ -103,6 +141,7 @@
             android:id="@+id/bseHomeTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:padding="10sp"
@@ -112,6 +151,7 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bseImageLogo" />
 
@@ -119,11 +159,12 @@
             android:id="@+id/bsmeImageLogo"
             android:layout_width="0dp"
             android:layout_height="210dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="12dp"
             android:contentDescription="@string/bsme_512"
             android:onClick="openBrowser"
             android:tag="https://bsme.duelingworlds.com/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bseHomeTextView"
             app:srcCompat="@drawable/ic_bsme_512" />
@@ -132,6 +173,7 @@
             android:id="@+id/bsmeHomeTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:padding="10sp"
@@ -141,6 +183,7 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bsmeImageLogo" />
 
@@ -148,7 +191,7 @@
             android:id="@+id/dwiWebApp"
             android:layout_width="0dp"
             android:layout_height="210dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="8dp"
             android:contentDescription="@string/duelingworlds_512"
             android:onClick="openBrowser"
             android:tag="https://web.duelingworlds.com/"
@@ -162,6 +205,7 @@
             android:id="@+id/dwiWebAppTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:padding="10sp"
@@ -171,7 +215,7 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiWebApp" />
 
@@ -179,7 +223,7 @@
             android:id="@+id/dwiBlog"
             android:layout_width="0dp"
             android:layout_height="210dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="44dp"
             android:contentDescription="@string/duelingworlds_512"
             android:onClick="openBrowser"
             android:tag="https://blog.duelingworlds.com/"
@@ -193,6 +237,7 @@
             android:id="@+id/dwiBlogTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:padding="10sp"
@@ -202,7 +247,7 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiBlog" />
 
@@ -210,7 +255,7 @@
             android:id="@+id/dwiShop"
             android:layout_width="0dp"
             android:layout_height="210dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="84dp"
             android:contentDescription="@string/duelingworlds_512"
             android:onClick="openBrowser"
             android:tag="https://shop.duelingworlds.com/"
@@ -224,6 +269,7 @@
             android:id="@+id/dwiShopTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:padding="10sp"
@@ -241,7 +287,7 @@
             android:id="@+id/dwiRest"
             android:layout_width="0dp"
             android:layout_height="210dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="84dp"
             android:contentDescription="@string/restless_child_1988_to_present_app_home_page"
             android:onClick="openBrowser"
             android:tag="https://home.restlesschild.rocks/"
@@ -255,6 +301,7 @@
             android:id="@+id/dwiRestHomeTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:padding="10sp"
@@ -264,7 +311,7 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiRest" />
 
@@ -272,12 +319,12 @@
             android:id="@+id/dwiBgd"
             android:layout_width="0dp"
             android:layout_height="210dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="84dp"
             android:contentDescription="@string/bad_girls_dream_1990_present_app_home_page"
             android:onClick="openBrowser"
             android:tag="https://homer.bgdmusic.club/"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiRestHomeTextView"
             app:srcCompat="@drawable/ic_bad_concert" />
@@ -286,6 +333,7 @@
             android:id="@+id/dwiBgdHomeTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:padding="10sp"
@@ -303,7 +351,7 @@
             android:id="@+id/dwiVivs"
             android:layout_width="0dp"
             android:layout_height="210dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="84dp"
             android:contentDescription="@string/shopping_vivians_app_home_page"
             android:onClick="openBrowser"
             android:tag="https://home.vivians.biz/"
@@ -317,6 +365,7 @@
             android:id="@+id/dwiVivsHomeTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:padding="10sp"
@@ -329,5 +378,6 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiVivs" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
