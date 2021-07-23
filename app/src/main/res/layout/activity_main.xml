@@ -40,7 +40,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView"
-            app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced" />
+            app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/rcbgdMusicAppText"
@@ -72,7 +73,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcbgdMusicAppText"
-            app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced" />
+            app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/rcMusicAppText"
@@ -104,7 +106,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcMusicAppText"
-            app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced" />
+            app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/bgdMusicAppText"
@@ -136,7 +139,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppText"
-            app:srcCompat="@drawable/ic_duelingworlds_512" />
+            app:srcCompat="@drawable/ic_duelingworlds_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/dwiHomeTextView"
@@ -168,7 +172,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiHomeTextView"
-            app:srcCompat="@drawable/ic_bse_512" />
+            app:srcCompat="@drawable/ic_bse_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/bseHomeTextView"
@@ -200,7 +205,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bseHomeTextView"
-            app:srcCompat="@drawable/ic_bsme_512" />
+            app:srcCompat="@drawable/ic_bsme_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/bsmeHomeTextView"
@@ -232,7 +238,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bsmeHomeTextView"
-            app:srcCompat="@drawable/ic_duelingworlds_512" />
+            app:srcCompat="@drawable/ic_duelingworlds_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/dwiWebAppTextView"
@@ -264,7 +271,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiWebAppTextView"
-            app:srcCompat="@drawable/ic_duelingworlds_512" />
+            app:srcCompat="@drawable/ic_duelingworlds_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/dwiBlogTextView"
@@ -296,7 +304,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiBlogTextView"
-            app:srcCompat="@drawable/ic_bsme_album_512" />
+            app:srcCompat="@drawable/ic_bsme_album_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/dwiShopTextView"
@@ -328,7 +337,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiShopTextView"
-            app:srcCompat="@drawable/ic_restless_512" />
+            app:srcCompat="@drawable/ic_restless_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/dwiRestHomeTextView"
@@ -360,7 +370,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiRestHomeTextView"
-            app:srcCompat="@drawable/ic_bad_concert" />
+            app:srcCompat="@drawable/ic_bad_concert"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/dwiBgdHomeTextView"
@@ -392,7 +403,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiBgdHomeTextView"
-            app:srcCompat="@drawable/ic_vivs_512" />
+            app:srcCompat="@drawable/ic_vivs_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/dwiVivsHomeTextView"
