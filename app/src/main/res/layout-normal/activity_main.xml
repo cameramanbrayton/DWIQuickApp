@@ -76,6 +76,57 @@
             app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced"
             tools:ignore="UsingOnClickInXml" />
 
+        <TextView
+            android:id="@+id/rcMusicAppText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/restless_child_album_in_app_site_1989_album_12_songs_2_99"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rcMusicAppimage" />
+
+        <ImageView
+            android:id="@+id/bgdMusicAppimage"
+            android:layout_width="0dp"
+            android:layout_height="205dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/bad_girls_dream_album_in_app_site_the_taste_of_satisfaction_1990_album_5_songs_1_99"
+            android:onClick="openBrowser"
+            android:tag="https://shop.duelingworlds.com/shop/bad-girls-dream-album-in-app-site-the-taste-of-satisfaction-1990-album-5-songs-1-99/"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rcMusicAppText"
+            app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:id="@+id/bgdMusicAppText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/bad_girls_dream_album_in_app_site_the_taste_of_satisfaction_1990_album_5_songs_1_99"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppimage" />
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="0dp"
