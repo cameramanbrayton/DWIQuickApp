@@ -22,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
         textView = findViewById(R.id.bgdMusicAppText);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
 
+        textView = findViewById(R.id.rcbgdMusicAppText);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+
         textView = findViewById(R.id.dwiHomeTextView);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
 

@@ -93,6 +93,38 @@
             app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppimage" />
 
         <ImageView
+            android:id="@+id/rcbgdMusicAppimage"
+            android:layout_width="0dp"
+            android:layout_height="210dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/duelingworlds_512"
+            android:onClick="openBrowser"
+            android:tag="https://shop.duelingworlds.com/shop/brayton-scott-music-entertainment-all-music-app-17-songs-3-99/"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppText"
+            app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced" />
+
+        <TextView
+            android:id="@+id/rcbgdMusicAppText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/brayton_scott_music_entertainment_all_music_app_17_songs_3_99"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rcbgdMusicAppimage" />
+
+        <ImageView
             android:id="@+id/imageView"
             android:layout_width="0dp"
             android:layout_height="210dp"
