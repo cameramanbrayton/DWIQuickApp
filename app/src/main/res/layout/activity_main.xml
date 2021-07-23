@@ -338,7 +338,7 @@
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:padding="10sp"
-            android:text="@string/restless_child_1988_to_present_app_home_page"
+            android:text="@string/restless_child_1988_to_present_quick_app"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="#FFFFFF"
             android:textSize="24sp"

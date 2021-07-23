@@ -4,8 +4,6 @@
     <string name="duelingworlds_512">duelingworlds_512</string>
     <string name="dueling_worlds_international_home_page" translatable="false"><a href="https://duelingworlds.com/home-welcome-dueling-worlds/">
         Dueling Worlds© International Home Page</a></string>
-    <string name="dueling_worlds_international_login_register_page" translatable="false"><a href="https://home.duelingworlds.com/login-for-the-dueling/">
-        Dueling Worlds© International Login/Register Page</a></string>
     <string name="bse_512">bse_512</string>
     <string name="brayton_scott_entertainment_home_page" translatable="false"><a href="https://bse.duelingworlds.com/">
         Brayton Scott Entertainment© Home Page</a></string>
@@ -18,8 +16,6 @@
         Blog of Dueling Worlds© International Home Page</a></string>
     <string name="shopping_dueling_worlds_international_all_app_shopping_page" translatable="false"><a href="https://shop.duelingworlds.com/">
         Shopping @ Dueling Worlds© International All App Shopping Page</a></string>
-    <string name="restless_child_1988_to_present_app_home_page" translatable="false"><a href="https://home.restlesschild.rocks/">
-        Restless Child 1988 to Present App Home Page</a></string>
     <string name="bad_girls_dream_1990_present_app_home_page" translatable="false"><a href="https://homer.bgdmusic.club/">
         Bad Girls Dream 1990 - Present App Home Page</a></string>
     <string name="shopping_vivians_app_home_page" translatable="false"><a href="https://home.vivians.biz/">
@@ -33,4 +29,6 @@
     <string name="brayton_scott_music_entertainment_all_music_app_17_songs_3_99" translatable="false">
         <a href="https://shop.duelingworlds.com/shop/brayton-scott-music-entertainment-all-music-app-17-songs-3-99/">
             Brayton Scott Music Entertainment All Music App, 17 Songs $3.99</a></string>
+    <string name="restless_child_1988_to_present_quick_app" translatable="false">
+        <a href="https://restlesschild.rocks/">Restless Child 1988 to Present Quick App</a></string>
 </resources>
