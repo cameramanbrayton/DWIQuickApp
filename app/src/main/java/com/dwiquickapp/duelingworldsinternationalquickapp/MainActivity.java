@@ -28,9 +28,6 @@ public class MainActivity extends AppCompatActivity {
         textView = findViewById(R.id.dwiHomeTextView);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
 
-        textView = findViewById(R.id.dwiLoginTextView);
-        textView.setMovementMethod(LinkMovementMethod.getInstance());
-
         textView = findViewById(R.id.bseHomeTextView);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
 
