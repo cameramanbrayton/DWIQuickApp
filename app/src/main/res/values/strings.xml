@@ -2,7 +2,7 @@
     <string name="app_name">Dueling Worlds International Quick App</string>
     <string name="dueling_worlds_quick_app">Dueling Worlds© Quick App</string>
     <string name="duelingworlds_512">duelingworlds_512</string>
-    <string name="dueling_worlds_international_home_page" translatable="false"><a href="https://home.duelingworlds.com">
+    <string name="dueling_worlds_international_home_page" translatable="false"><a href="https://duelingworlds.com/home-welcome-dueling-worlds/">
         Dueling Worlds© International Home Page</a></string>
     <string name="dueling_worlds_international_login_register_page" translatable="false"><a href="https://home.duelingworlds.com/login-for-the-dueling/">
         Dueling Worlds© International Login/Register Page</a></string>
