@@ -43,6 +43,24 @@
             app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced"
             tools:ignore="UsingOnClickInXml" />
 
+        <TextView
+            android:id="@+id/rcbgdMusicAppText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/brayton_scott_music_entertainment_all_music_app_17_songs_3_99"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="44sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rcbgdMusicAppimage" />
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="0dp"
