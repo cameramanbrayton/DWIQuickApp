@@ -1,17 +1,14 @@
 <resources>
     <string name="app_name">Dueling Worlds International Quick App</string>
     <string name="dueling_worlds_quick_app">Dueling Worlds© Quick App</string>
-    <string name="duelingworlds_512">duelingworlds_512</string>
     <string name="dueling_worlds_international_home_page" translatable="false"><a href="https://duelingworlds.com/home-welcome-dueling-worlds/">
         Dueling Worlds© International Home Page</a></string>
-    <string name="bse_512">bse_512</string>
     <string name="brayton_scott_entertainment_home_page" translatable="false"><a href="https://bse.duelingworlds.com/">
         Brayton Scott Entertainment© Home Page</a></string>
-    <string name="bsme_512">bsme_512</string>
     <string name="brayton_scott_music_entertainment_home_page" translatable="false"><a href="https://bsme.duelingworlds.com/">
         Brayton Scott Music Entertainment Home Page</a></string>
     <string name="web_app_design_development_home_page" translatable="false"><a href="https://web.duelingworlds.com/">
-        <![CDATA[Web & App Design & Development Home Page]]></a></string>
+        Web App Design and Development Home Page></a></string>
     <string name="blog_of_dueling_worlds_international_home_page" translatable="false"><a href="https://blog.duelingworlds.com/">
         Blog of Dueling Worlds© International Home Page</a></string>
     <string name="shopping_dueling_worlds_international_all_app_shopping_page" translatable="false"><a href="https://shop.duelingworlds.com/">
