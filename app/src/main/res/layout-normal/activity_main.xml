@@ -41,7 +41,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView"
             app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/rcbgdMusicAppText"
@@ -74,7 +74,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcbgdMusicAppText"
             app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/rcMusicAppText"
@@ -107,7 +107,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcMusicAppText"
             app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/bgdMusicAppText"
@@ -140,7 +140,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppText"
             app:srcCompat="@drawable/ic_duelingworlds_512"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/dwiHomeTextView"
@@ -165,7 +165,7 @@
             android:layout_width="0dp"
             android:layout_height="205dp"
             android:layout_marginTop="20dp"
-            android:contentDescription="@string/bse_512"
+            android:contentDescription="@string/brayton_scott_entertainment_home_page"
             android:onClick="openBrowser"
             android:tag="https://bse.duelingworlds.com/"
             app:layout_constraintEnd_toEndOf="parent"
@@ -173,7 +173,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiHomeTextView"
             app:srcCompat="@drawable/ic_bse_512"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/bseHomeTextView"
@@ -198,7 +198,7 @@
             android:layout_width="0dp"
             android:layout_height="205dp"
             android:layout_marginTop="20dp"
-            android:contentDescription="@string/bsme_512"
+            android:contentDescription="@string/brayton_scott_entertainment_home_page"
             android:onClick="openBrowser"
             android:tag="https://bsme.duelingworlds.com/"
             app:layout_constraintEnd_toEndOf="parent"
@@ -231,7 +231,7 @@
             android:layout_width="0dp"
             android:layout_height="205dp"
             android:layout_marginTop="20dp"
-            android:contentDescription="@string/duelingworlds_512"
+            android:contentDescription="@string/web_app_design_development_home_page"
             android:onClick="openBrowser"
             android:tag="https://web.duelingworlds.com/"
             app:layout_constraintEnd_toEndOf="parent"
@@ -239,7 +239,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bsmeHomeTextView"
             app:srcCompat="@drawable/ic_duelingworlds_512"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/dwiWebAppTextView"
@@ -264,9 +264,9 @@
             android:layout_width="0dp"
             android:layout_height="205dp"
             android:layout_marginTop="20dp"
-            android:contentDescription="@string/duelingworlds_512"
+            android:contentDescription="@string/web_app_design_development_home_page"
             android:onClick="openBrowser"
-            android:tag="https://blog.duelingworlds.com/"
+            android:tag="https://web.duelingworlds.com/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -297,21 +297,21 @@
             android:layout_width="0dp"
             android:layout_height="205dp"
             android:layout_marginTop="20dp"
-            android:contentDescription="@string/duelingworlds_512"
+            android:contentDescription="@string/shopping_dueling_worlds_international_all_app_shopping_page"
             android:onClick="openBrowser"
             android:tag="https://shop.duelingworlds.com/"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiBlogTextView"
             app:srcCompat="@drawable/ic_bsme_album_512"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/dwiShopTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:padding="10sp"
@@ -321,7 +321,7 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiShop" />
 
@@ -329,12 +329,12 @@
             android:id="@+id/dwiRest"
             android:layout_width="0dp"
             android:layout_height="205dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="12dp"
             android:contentDescription="@string/restless_child_1988_to_present_quick_app"
             android:onClick="openBrowser"
             android:tag="https://restlesschild.rocks/"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiShopTextView"
             app:srcCompat="@drawable/ic_restless_512"
@@ -344,7 +344,7 @@
             android:id="@+id/dwiRestHomeTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="4dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:padding="10sp"
@@ -354,7 +354,7 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiRest" />
 
@@ -362,12 +362,12 @@
             android:id="@+id/dwiBgd"
             android:layout_width="0dp"
             android:layout_height="205dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="24dp"
             android:contentDescription="@string/bad_girls_dream_1990_present_quick_app"
             android:onClick="openBrowser"
             android:tag="https://bgdmusic.club/"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiRestHomeTextView"
             app:srcCompat="@drawable/ic_bad_concert"
@@ -377,7 +377,7 @@
             android:id="@+id/dwiBgdHomeTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="32dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:padding="10sp"
@@ -387,7 +387,7 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiBgd" />
 
@@ -395,12 +395,12 @@
             android:id="@+id/dwiVivs"
             android:layout_width="0dp"
             android:layout_height="205dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="20dp"
             android:contentDescription="@string/shopping_vivians_quick_app"
             android:onClick="openBrowser"
             android:tag="https://vivians.biz/"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiBgdHomeTextView"
             app:srcCompat="@drawable/ic_vivs_512"
@@ -410,7 +410,7 @@
             android:id="@+id/dwiVivsHomeTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="12dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:padding="10sp"
@@ -420,7 +420,7 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiVivs" />
 
