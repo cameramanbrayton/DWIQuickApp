@@ -332,13 +332,13 @@
             android:layout_marginTop="12dp"
             android:contentDescription="@string/restless_child_1988_to_present_quick_app"
             android:onClick="openBrowser"
-            android:tag="https://restlesschild.rocks/"
+            android:tag="https://bsme.duelingworlds.com/beginning/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiShopTextView"
             app:srcCompat="@drawable/ic_restless_512"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/dwiRestHomeTextView"
@@ -365,13 +365,13 @@
             android:layout_marginTop="24dp"
             android:contentDescription="@string/bad_girls_dream_1990_present_quick_app"
             android:onClick="openBrowser"
-            android:tag="https://bgdmusic.club/"
+            android:tag="https://bsme.duelingworlds.com/bad-girls-dream-home/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiRestHomeTextView"
             app:srcCompat="@drawable/ic_bad_concert"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/dwiBgdHomeTextView"
@@ -404,7 +404,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dwiBgdHomeTextView"
             app:srcCompat="@drawable/ic_vivs_512"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/dwiVivsHomeTextView"
